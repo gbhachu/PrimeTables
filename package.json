@@ -1,0 +1,32 @@
+{
+  "name": "primetables",
+  "version": "0.0.0",
+  "description": "App to display prime multiplication tables for given whole number",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbhachu/primeTables.git"
+  },
+  "keywords": [
+    "NPM"
+  ],
+  "author": "Gurminder Bhachu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gbhachu/primeTables/issues"
+  },
+  "homepage": "https://github.com/gbhachu/primeTables#readme"
+}
