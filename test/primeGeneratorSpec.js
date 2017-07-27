@@ -1,5 +1,3 @@
-//Array tester to see if correct number of primes are being generated
-
 var expect = require('chai').expect;
 var primeArrayGenerator= require("../src/primeGenerator.js");
 

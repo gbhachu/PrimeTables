@@ -1,5 +1,3 @@
-// Tests for the function that generates the multiplication table.
-
 var expect = require('chai').expect;
 var primeTableGenerator= require("../src/primeTableGenerator.js");
 
