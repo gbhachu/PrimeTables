@@ -1,13 +1,13 @@
-// Checks if the input is a whole number larger than 0 and if so, converts the string into an integer.
+// Checks if the input is a whole number larger than 0.
+exports.isWholeNumber = function(n) {
 
- function isWholeConvert(numberN) {
-   var isNum = /^\d+$/.test(numberN);
-     if (isNum && numberN!=='0') {
-       	return parseInt(numberN, 10);
-   }
-   else {
-     throw new Error ('Input incorrect, Please enter whole number greater than 0 to continue.');
-   }
- }
+    //Returns true when given number, n, is a whole number, false otherwise
 
- module.exports= isWholeConvert;
+    //Checks n is a number, greater than or equal to 1 and an integer
+    if (typeof n !== "number" || n < 1 || (n%1) !== 0) {
+	return false;
+    } else {
+	return true;
+    }
+
+};
