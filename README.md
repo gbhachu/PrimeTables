@@ -13,6 +13,14 @@ $ cd /root/of/project
 ```
 $ npm install
 ```
+To see tests:
+```
+$ npm test
+```
+To run project:
+```
+$ node index.js <number to be inputted>
+```
 
 
 
