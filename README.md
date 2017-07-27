@@ -27,4 +27,6 @@ $ node index.js <number to be inputted>
 
 ### What I would do with it if I had more time
 - I would have looked into including a bigger frame of prime numbers that can be displayed. As of now the application can only return around 10000 prime numbers which could be increased if i split the arrays into smaller partitions.
+- The display of the results could be better, joining all elements in a row imposes limitations as to how many can be displayed.
+- I would have implemented a page view so in whole UX would be more inviting.
 - Overall I feel it is a decent attempt as I have had limited exposure to Node but my working approach of researching before developing helped me overcome the gap in knowledge there.
