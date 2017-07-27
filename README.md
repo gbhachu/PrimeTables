@@ -21,9 +21,10 @@ To run project:
 ```
 $ node index.js <number to be inputted>
 ```
-
-
-
 ### What I am pleased with
+- Simple and easy to follow programming following SOLID principles by separating out all dependancies to the best of my ability.
+- Using TDD to drive the development to see what was needed as the next step.
 
 ### What I would do with it if I had more time
+- I would have looked into including a bigger frame of prime numbers that can be displayed. As of now the application can only return around 10000 prime numbers which could be increased if i split the arrays into smaller partitions.
+- Overall I feel it is a decent attempt as I have had limited exposure to Node but my working approach of researching before developing helped me overcome the gap in knowledge there.
