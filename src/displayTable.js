@@ -2,7 +2,7 @@
 
 function displayTable(array2D){
 
-    var longestNumber = array2D[array2D.length-1][array2D.length-1];
+  var longestNumber = array2D[array2D.length-1][array2D.length-1];
 	var maxNoOfDigits = longestNumber.toString().length;
 	var formattedTable = [];
 	for (var i = 0; i < array2D.length; i++){
